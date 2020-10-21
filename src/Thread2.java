@@ -9,7 +9,7 @@ public class Thread2 extends Thread{
 
     public void run() {
         try {
-            synchronized(Thread1) {
+            {
                 System.out.println("Entrada - Salgo");
                 for (int i = 0; i = numero; i++) {
                     System.out.println("Repeticion " + i);

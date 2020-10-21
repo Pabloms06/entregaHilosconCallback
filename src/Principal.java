@@ -9,6 +9,7 @@ public class Principal {
         System.out.println("Inicio *Hilo 2*");
         Thread2 th2 = new Thread2(this);
         th2.start();
+        th2.join();
         System.out.println("Fin");
     }
 }
